@@ -7,7 +7,7 @@ import cors from 'cors';
 const app = express();
 app.use(express.json());
 app.use(cors());
-const port = 54988;
+const port = 80;
 
 // MySQL bağlantı yapılandırması
 const dbConfig = {
